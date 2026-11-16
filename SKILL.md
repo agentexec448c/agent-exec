@@ -1,6 +1,7 @@
 ---
 name: agent-exec
-description: Pay-per-call services for agents with no account or API key, over x402 (USDC on Base or Solana) - run python3/node code in a sandbox, make JSON-RPC calls to Base, Ethereum or Solana, send USDC without gas, look up live flight positions, store objects, take locks, attest URLs, watch URLs, rent DNS names, get disposable inboxes, and risk-check addresses, URLs and payment quotes before paying. Use when a task needs one of these and you can pay per call with an x402 client.
+version: 1.0.0
+description: Pay-per-call agent services over x402 (USDC, Base or Solana), no account or key - sandboxed code, JSON-RPC to Base/Ethereum/Solana, gasless USDC, flight positions, storage, locks, attestations, inboxes, DNS, and risk checks on addresses, URLs and payment quotes.
 ---
 
 # agent-exec
